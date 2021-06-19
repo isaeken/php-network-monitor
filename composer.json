@@ -1,0 +1,35 @@
+{
+    "name": "isaeken/php-network-monitor",
+    "version": "1.0.0",
+    "description": "Network Monitoring Tool",
+    "license": "MIT",
+    "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "homepage": "https://github.com/isaeken/php-network-monitor",
+    "readme": "README.md",
+    "authors": [
+        {
+            "name": "Isa Eken",
+            "email": "hello@isaeken.com.tr",
+            "homepage": "https://www.isaeken.com.tr",
+            "role": "Founder"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "symfony/var-dumper": "^5.3",
+        "illuminate/support": "^8.47"
+    },
+    "autoload": {
+        "psr-4": {
+            "IsaEken\\NetworkMonitor\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "monitor": "php bin/monitor.php"
+    }
+}
